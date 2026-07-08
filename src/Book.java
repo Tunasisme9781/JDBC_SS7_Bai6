@@ -46,7 +46,6 @@ public class Book{
         this.author = scanner.nextLine();
     }
 
-    // Phương thức hiển thị dữ liệu theo hàng (để in dạng bảng)
     public void displayData() {
         System.out.printf("| %-7d | %-25s | %-20s |\n", this.bookId, this.bookName, this.author);
     }
